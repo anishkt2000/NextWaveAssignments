@@ -1,0 +1,39 @@
+service: financial-record-processor
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: ${opt:stage, 'dev'}
+  region: ${opt:region, 'us-east-1'}
+  environment:
+    STORAGE_BUCKET: ${self:service}-${self:provider.stage}-transactions
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - s3:PutObject
+        - s3:GetObject
+      Resource: arn:aws:s3:::${self:provider.environment.STORAGE_BUCKET}/*
+
+functions:
+  processTransaction:
+    handler: dist/lambda.processTransaction
+    events:
+      - http:
+          path: transaction
+          method: post
+          cors: true
+
+  getTransaction:
+    handler: dist/lambda.getTransaction
+    events:
+      - http:
+          path: transaction/{id}
+          method: get
+          cors: true
+
+resources:
+  Resources:
+    TransactionsBucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: ${self:provider.environment.STORAGE_BUCKET}
