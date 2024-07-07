@@ -29,9 +29,7 @@ Run the integration test suite:  npm run test:integration
 
 This command uses the configuration in `jest.integration.config.js`.
 
-## Writing Tests
 
-[Previous content on writing tests remains the same]
 
 ## Continuous Integration
 
