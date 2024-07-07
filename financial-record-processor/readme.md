@@ -108,4 +108,3 @@ This project uses the Serverless Framework for easy deployment to AWS Lambda. Th
 [Security considerations remain the same as in the previous version]
 
 For more security best practices, refer to `docs/Security.md`.
-
