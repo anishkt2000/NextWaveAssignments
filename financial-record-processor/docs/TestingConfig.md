@@ -29,8 +29,6 @@ Run the integration test suite:  npm run test:integration
 
 This command uses the configuration in `jest.integration.config.js`.
 
-
-
 ## Continuous Integration
 
 [Previous content on CI setup remains the same]

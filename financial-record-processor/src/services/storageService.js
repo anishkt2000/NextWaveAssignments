@@ -51,21 +51,7 @@ function loadTransactions() {
 }
 function getTransaction(transactionId) {
     return __awaiter(this, void 0, void 0, function* () {
-        var _a;
-        const params = {
-            Bucket: BUCKET_NAME,
-            Key: `transactions/${transactionId}.json`,
-        };
-        try {
-            const data = yield s3.getObject(params).promise();
-            return JSON.parse(((_a = data.Body) === null || _a === void 0 ? void 0 : _a.toString()) || '');
-        }
-        catch (error) {
-            if (error.code === 'NoSuchKey') {
-                return null;
-            }
-            console.error('Error retrieving transaction from S3:', error);
-            throw error;
-        }
+        const transactions = yield loadTransactions();
+        return transactions.find(t => t.transactionId === transactionId) || null;
     });
 }
