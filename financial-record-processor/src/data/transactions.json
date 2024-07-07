@@ -1,0 +1,62 @@
+[
+  {
+    "transactionId": "TXN123456789",
+    "userId": "USER98765",
+    "transactionDetails": {
+      "amount": 250,
+      "currency": "USD",
+      "transactionDate": "2024-04-18T12:34:56Z",
+      "paymentMethod": "CreditCard",
+      "merchantDetails": {
+        "merchantId": "MERCHANT12345",
+        "name": "Example Merchant",
+        "category": "Electronics",
+        "countryCode": "US"
+      }
+    },
+    "additionalInfo": {
+      "deviceIp": "192.168.1.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+    },
+    "userDetails": {
+      "pseudonym": "fcbca4666c047607",
+      "hashedEmail": "836f82db99121b3481011f16b49dfa5fbc714a0d1b1b9f784a1ebbbf5b39577f",
+      "hashedPhone": "1fa6b8d986d9b9cd01bf36951815158bbde9f520c0567c835dfe34783d0a4231",
+      "billingAddress": {
+        "country": "USA"
+      }
+    },
+    "riskScore": 90.21460917862245,
+    "encryptedData": "f08f0342106bec98f58df06e998f4e79:49ffc813e3bace0638c24222739dd752d564df6c23cd05810ae1aa4ab41f4530a0814bccf792c5c5314ee858cfcfb5a23433c753013d0d6b6734cf66f5a27a91e82627a5e76baa7416b6a0d8ffc99ad095c160404e5f483170483176e121b4fabe9407e4410de2c4a6ae15a0edd3d976bb59c56260d376dca553765f97676b85719b07586248d8626ccb4a17962822c20f3c07fd9862e1b5f02c577eb012954d41724567af08d6a7620de3b971a220a64be439461df4a09ecf58bfeb89861e31de83864d8c75293f5dee4ddf9c8d885b90ee8349443e51bc349de5eac620d456c8b40b910a3036cd8493f1a4d296097af87234dfe3ef3333c44c8ee819363496ed4361f68b3eee0cc172c584fcd66af60934da159372b32e969f2146289284ea0f53f7a2281cf602a137699df53645ca063cb98bf54b1d6a405272860ba7b8dc53d0d8b772de61c35b6a845cb1a2c838021bc12080037fd7345e92700189f2b3181946a09c8fd3318646180a586199c0cb373af0156785ef60cad97060810428fa1f629c84f20c59a38d8ba3f85d8c4c96867dbc860df82263db69f210d37124198a924fe38f5eaf11d24252abf9f23319280e820918b27029a6eca6abcdce3a6f5c2e9c39c89a3b750c76868703a1900e22b24943f6a0cf383dc6aab36ea42fac05054835e8f82823334b8a15bd261423dfd97b1e7b709c505d00453b7cef42158d7d1684608f33c04b76f827b07bdcfeb25d113a0d8b3c75bbb355e3d7b516a9685fd2dfcc9a24be6a018ad0b68b6e6af08fb1e85cdfcdaf17bc4368651dec2b178763debe7190c50e1d015fbb2d921de144ccd59ecb5a7ca3ef78e4b14429b5ecc5b123fd94d6386a2ddd90e220a8ff6a24663a4791820abeff7722e1e33c14555157e0dd0650a12e5064fd96e4155c9d7bada51206a7c9ea36f0df48eb6d707fbad78fba214a5073dc7cb4c09e007e8103175f14f95ce7d0c4fa3a65346afea6e616f0dd67010f015dc4b53ad873"
+  },
+  {
+    "transactionId": "TXN123456789",
+    "userId": "USER98765",
+    "transactionDetails": {
+      "amount": 250,
+      "currency": "USD",
+      "transactionDate": "2024-04-18T12:34:56Z",
+      "paymentMethod": "CreditCard",
+      "merchantDetails": {
+        "merchantId": "MERCHANT12345",
+        "name": "Example Merchant",
+        "category": "Electronics",
+        "countryCode": "US"
+      }
+    },
+    "additionalInfo": {
+      "deviceIp": "192.168.1.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+    },
+    "userDetails": {
+      "pseudonym": "fcbca4666c047607",
+      "hashedEmail": "836f82db99121b3481011f16b49dfa5fbc714a0d1b1b9f784a1ebbbf5b39577f",
+      "hashedPhone": "1fa6b8d986d9b9cd01bf36951815158bbde9f520c0567c835dfe34783d0a4231",
+      "billingAddress": {
+        "country": "USA"
+      }
+    },
+    "riskScore": 90.21460917862245,
+    "encryptedData": "f30593c4e5419b40df91d3f2433aa739:2524accbbfaea65e8eae8e85965e9012c2d08c3238088467338d17d1e61abbd55b49f470ab85e5b73f68406dbf28045ee62da15bc1b61dcede1262eac00b78c6a64c857ac9ac7efc5828b38460769f0c4fc245026b81ac2695b7da3fb7ad15c2f583a34d9055a60f30f301879fb8e4b5a6f6e3a59a302038021be322553360a1ed9a81ee06faad3dc91e73e476cb1d0104574d72df650aca47e72f59e95b9e8958af5b15a98a802d9fbf3278a387e46d2a2dcac3c43d633f548804cac5decdb8cc6485d479eb8b9bb168938f3f23716a3e51826aef89ac0664d102a4d1da67378b222d99f566e94a3d432318d1c840bbec603583f120b2b498fafa0f7137b97128847cd252acfc7be022d8563cd05f912d3b0701b25e113d918c9e822c936ccf414f6eecd08dc0143afdd8de188590f20e19b3120a18c7be96589f22aa9ed583251d5dead760ffd16344c385f9beb1d992d511b0c830b66d6e63e0e13f2e42f631beacceb2d2e4d2434eb24dac44ebfbc1658fd1e5fcd86a933d96076874415c4be91afacbb8223e92bc592cd13228477dfb1a994ff447283e301470eb858781485c31fdab0470d8ff3c9d22c49baa8392557e1ba01167487ad22e5f70f241b350c4704ccde0d8192d135b28b0d9a1a89608130d2d7fba47d1524bc474efb7b873889524c4ce3f13ae1c57ae4cc6055edd527e5d743b0a16a04eb6fef67a542704947fb2d93ecf600f44836965aeaf5136c573f4954b4becdf16c7aad5ae741518cc59fe93003a315d1e8103d720ae7ff1ec51d1f7885812fbc7bbe4783099ea1ceb20de379b8144e5815c092de75e534478f4c93af2698c920e9f700a75250f42f28bbb516e2ea560861db6f675ba3e3da19f139d15dec7d6c25f47aa64fcb943880c7a52792e790b4c6e3f7b234c9a144bdf6e1bcbd355753abad4f2b0843b0a0c7131628c0b0a4110c9e2199d318755ccd9da6150ff1a88024be869de1cd157efb69829aff5982fc897f2d92dca30"
+  }
+]
