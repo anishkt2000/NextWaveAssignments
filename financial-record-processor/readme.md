@@ -30,32 +30,32 @@ The system is built using TypeScript and JavaScript, designed to run on AWS Lamb
 
 ## Project Structure
 
-financial-record-processor/
-├── src/
-│ ├── data/
-│ │ └── transactions.json # Sample transaction data
-│ ├── services/
-│ │ ├── anonymizationService.js/ts # Service for anonymizing data
-│ │ ├── dataEnrichmentService.js/ts # Service for enriching transaction data
-│ │ ├── encryptionService.js/ts # Service for encrypting sensitive data
-│ │ ├── riskAssessmentService.js/ts # Service for assessing risk in transactions
-│ │ └── storageService.js/ts # Service for data storage operations
-│ ├── types/ # TypeScript type definitions
-│ ├── utils/ # Utility functions
-│ ├── index.js/ts # Main entry point of the application
-│ └── lambda.js/ts # Lambda function handler (if using AWS Lambda)
-├── tests/
-│ ├── index.test.js/ts # Unit tests for main functionality
-│ └── integration.js/ts # Integration tests
-├── .env # Environment variables configuration
-├── .gitignore # Git ignore file
-├── API DOCUMENTATION.md # Documentation for the API
-├── jest.config.js # Jest configuration
-├── jest.integration.config.js # Jest configuration for integration tests
-├── package.json # Node.js dependencies
-├── package-lock.json # Version-lock file for npm
-├── serverless.yml # Serverless framework configuration (if applicable)
-└── tsconfig.json # TypeScript configuration
+financial-record-processor/ 
+├── src/ 
+│ ├── data/ 
+│ │ └── transactions.json # Sample transaction data 
+│ ├── services/ 
+│ │ ├── anonymizationService.js/ts # Service for anonymizing data 
+│ │ ├── dataEnrichmentService.js/ts # Service for enriching transaction data 
+│ │ ├── encryptionService.js/ts # Service for encrypting sensitive data 
+│ │ ├── riskAssessmentService.js/ts # Service for assessing risk in transactions 
+│ │ └── storageService.js/ts # Service for data storage operations 
+│ ├── types/ # TypeScript type definitions 
+│ ├── utils/ # Utility functions 
+│ ├── index.js/ts # Main entry point of the application 
+│ └── lambda.js/ts # Lambda function handler (if using AWS Lambda) 
+├── tests/   
+│ ├── index.test.js/ts # Unit tests for main functionality 
+│ └── integration.js/ts # Integration tests 
+├── .env # Environment variables configuration  
+├── .gitignore # Git ignore file 
+├── API DOCUMENTATION.md # Documentation for the API 
+├── jest.config.js # Jest configuration 
+├── jest.integration.config.js # Jest configuration for integration tests 
+├── package.json # Node.js dependencies 
+├── package-lock.json # Version-lock file for npm 
+├── serverless.yml # Serverless framework configuration (if applicable) 
+└── tsconfig.json # TypeScript configuration 
 
 ## Services
 
