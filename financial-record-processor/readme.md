@@ -103,10 +103,6 @@ Refer to `API DOCUMENTATION.md` for detailed API specifications.
 
 This project uses the Serverless Framework for easy deployment to AWS Lambda. The configuration can be found in `serverless.yml`. For more information on how to customize the serverless setup, refer to `docs/ServerlessConfig.md`.
 
-## Security Considerations
 
-[Security considerations remain the same as in the previous version]
-
-For more security best practices, refer to `docs/Security.md`.
 
 
